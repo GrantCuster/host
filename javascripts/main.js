@@ -357,11 +357,8 @@ $(document).ready(function() {
 				}
 			});
 
-		});
-		three.draw = function() {
 			paper.view.draw();
-		}
-		three.draw();
+		});
 
 		function adjustInnerLine(anno_note) {
 			var section_offset = $('#section_three').offset().top;
@@ -428,7 +425,7 @@ $(document).ready(function() {
 				});
 			}
 
-			three.draw();
+			paper.view.draw();
 		}
 
 
@@ -472,9 +469,6 @@ $(document).ready(function() {
 
 	}
 	threeSetup();
-	window.onload = function() {
-		three.draw();
-	}
 
 	function fourSetup() {
 		$('#section_four .main_column p').each(function() {
