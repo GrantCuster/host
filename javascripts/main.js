@@ -240,7 +240,6 @@ $(document).ready(function() {
 		$('#lineCanvas').attr('height', section_height);
 		$('#lineCanvas').attr('width', $(window).width());
 
-		console.log('once');
 		var canvas = document.getElementById('lineCanvas');
 		paper.setup(canvas);
 
