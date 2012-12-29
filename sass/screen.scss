@@ -19,7 +19,7 @@ header {
 		width: 100%;
 	}
 	#infobar {
-		color: #999;
+		color: #888;
 		font-family: "OpenSansLight";
 		line-height: 1em;
 		font-size: 13px;
@@ -29,6 +29,7 @@ header {
 		width: 100%;
 		background: #222;
 		a {
+			font-family: "OpenSans";
 			color: #bbb;
 			text-decoration: none;
 			&:hover {
