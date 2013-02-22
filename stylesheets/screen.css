@@ -148,52 +148,51 @@ header #byline {
 /* line 131, ../sass/screen.scss */
 #nav li #info_list {
   background: rgba(0, 0, 0, 0.1);
-  height: 20px;
+  height: 22px;
   width: 40px;
   left: 0;
   top: 0;
   text-align: center;
-  line-height: 20px;
+  line-height: 22px;
   font-size: 12px;
 }
 /* line 141, ../sass/screen.scss */
 #nav li#info {
-  height: 20px;
   color: #888;
   cursor: pointer;
-  font-style: italic;
+  height: 22px;
+  font-weight: bold;
   border-top: solid 1px rgba(0, 0, 0, 0.1);
-  font-family: "Georgia", serif;
 }
-/* line 148, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 #nav li#info:hover {
   color: #000;
 }
-/* line 150, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
 #nav li#info:hover #info_list {
   background: rgba(0, 0, 0, 0.2);
 }
 
-/* line 158, ../sass/screen.scss */
+/* line 157, ../sass/screen.scss */
 section {
   position: relative;
   padding: 60px 0;
   z-index: 9;
   background: #fff;
 }
-/* line 163, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 section:last-child {
   border-bottom: none;
 }
 
-/* line 168, ../sass/screen.scss */
+/* line 167, ../sass/screen.scss */
 .container {
   width: 1086px;
   margin: 0 auto;
   position: relative;
 }
 
-/* line 173, ../sass/screen.scss */
+/* line 172, ../sass/screen.scss */
 .main_column {
   width: 640px;
   font-family: Georgia, sans-serif;
@@ -201,7 +200,7 @@ section:last-child {
   line-height: 1.7em;
   color: #111;
 }
-/* line 179, ../sass/screen.scss */
+/* line 178, ../sass/screen.scss */
 .main_column h2 {
   background: #222;
   height: 40px;
@@ -212,22 +211,22 @@ section:last-child {
   margin-bottom: 2em;
   font-family: "Helvetica Neue", "Arial", sans-serif;
 }
-/* line 189, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .main_column p {
   margin-bottom: 1.1em;
 }
-/* line 191, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 .main_column p:last-child {
   margin-bottom: 0;
 }
-/* line 197, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 .main_column li {
   margin-bottom: 1.2em;
   padding-left: 26px;
   margin-left: -26px;
   position: relative;
 }
-/* line 203, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 .main_column li:before {
   content: '\2022';
   position: absolute;
@@ -236,12 +235,12 @@ section:last-child {
   font-size: 32px;
   color: rgba(0, 0, 0, 0.4);
 }
-/* line 211, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 .main_column.centered {
   margin: 0 auto;
 }
 
-/* line 215, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 blockquote {
   padding-left: 18px;
   border-left: solid 8px rgba(0, 0, 0, 0.3);
@@ -249,13 +248,13 @@ blockquote {
   font-style: italic;
 }
 
-/* line 221, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 .drop_start {
   font-weight: bold;
   text-transform: uppercase;
 }
 
-/* line 225, ../sass/screen.scss */
+/* line 224, ../sass/screen.scss */
 .explainer {
   background: rgba(0, 0, 0, 0.1);
   color: #888;
@@ -270,54 +269,54 @@ blockquote {
   text-align: center;
 }
 
-/* line 239, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 #section_one {
   position: relative;
   min-height: 1000px;
 }
-/* line 242, ../sass/screen.scss */
+/* line 241, ../sass/screen.scss */
 #section_one .container {
   -webkit-transition: opacity 0.1s linear;
   -moz-transition: opacity 0.1s linear;
   transition: opacity 0.1s linear;
 }
-/* line 246, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #section_one .container .notes {
   opacity: 0;
 }
-/* line 251, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 #section_one.set_up .notes {
   opacity: 1;
 }
-/* line 255, ../sass/screen.scss */
+/* line 254, ../sass/screen.scss */
 #section_one .main_column {
   position: absolute;
   left: 0;
   top: 0;
 }
-/* line 259, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 #section_one .main_column .annotate {
   background-color: #FDFEC4;
   padding: 2px 0;
 }
-/* line 262, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 #section_one .main_column .annotate.active {
   background-color: yellow;
 }
-/* line 267, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 #section_one .notes_container {
   float: right;
   position: relative;
   min-height: 1000px;
 }
-/* line 272, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 #section_one .rail {
   width: 22px;
   position: absolute;
   right: 380px;
   top: 0;
 }
-/* line 277, ../sass/screen.scss */
+/* line 276, ../sass/screen.scss */
 #section_one .rail #marker {
   font-size: 16px;
   width: 22px;
@@ -331,7 +330,7 @@ blockquote {
   z-index: 99999;
   color: #999;
 }
-/* line 290, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 #section_one .rail #content {
   width: 22px;
   height: 22px;
@@ -339,7 +338,7 @@ blockquote {
   top: 0;
   position: absolute;
 }
-/* line 297, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 #section_one .rail #diamond {
   position: absolute;
   left: 0;
@@ -347,43 +346,43 @@ blockquote {
   width: 11px;
   height: 22px;
 }
-/* line 304, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 #section_one .rail #marker.pinned {
   position: fixed;
   top: 100px;
   margin-top: 0;
   color: #aaa;
 }
-/* line 310, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 #section_one .rail #marker.active {
   background: yellow;
   color: #555;
 }
-/* line 314, ../sass/screen.scss */
+/* line 313, ../sass/screen.scss */
 #section_one .rail #marker.inner_active #diamond {
   background: #82d8ff;
 }
-/* line 317, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 #section_one .rail #marker.bottom {
   position: absolute;
   top: auto;
   bottom: 16px;
   color: #aaa;
 }
-/* line 323, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 #section_one .rail .pointer {
   width: 22px;
   position: absolute;
   left: 0;
 }
-/* line 328, ../sass/screen.scss */
+/* line 327, ../sass/screen.scss */
 #section_one .rail .inner_pointer {
   width: 22px;
   position: absolute;
   left: 0;
   z-index: 9999;
 }
-/* line 335, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 #section_one #note_footer {
   height: 40px;
   width: 403px;
@@ -392,7 +391,7 @@ blockquote {
   position: absolute;
   bottom: 6px;
 }
-/* line 343, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 #section_one .notes {
   float: left;
   width: 380px;
@@ -403,50 +402,50 @@ blockquote {
   right: 0;
   top: 0;
 }
-/* line 352, ../sass/screen.scss */
+/* line 351, ../sass/screen.scss */
 #section_one .notes .explainer {
   margin: 0;
   margin-left: -23px;
 }
-/* line 356, ../sass/screen.scss */
+/* line 355, ../sass/screen.scss */
 #section_one .notes .note {
   padding: 15px 0 15px 25px;
   border-left: solid 1px #dddddd;
   color: #999;
   position: absolute;
 }
-/* line 361, ../sass/screen.scss */
+/* line 360, ../sass/screen.scss */
 #section_one .notes .note.active {
   color: #222;
   border-left: solid 1px #666666;
 }
-/* line 365, ../sass/screen.scss */
+/* line 364, ../sass/screen.scss */
 #section_one .notes .note p {
   margin-bottom: 1.6em;
 }
-/* line 367, ../sass/screen.scss */
+/* line 366, ../sass/screen.scss */
 #section_one .notes .note p.last {
   margin-bottom: 0;
 }
-/* line 371, ../sass/screen.scss */
+/* line 370, ../sass/screen.scss */
 #section_one .notes .note blockquote {
   padding: 0;
   border-left: none;
   margin-left: 0;
 }
-/* line 375, ../sass/screen.scss */
+/* line 374, ../sass/screen.scss */
 #section_one .notes .note blockquote:last-child {
   margin-bottom: 0;
 }
-/* line 379, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 #section_one .notes .note .anno {
   background-color: #c9ebfb;
 }
-/* line 381, ../sass/screen.scss */
+/* line 380, ../sass/screen.scss */
 #section_one .notes .note .anno.active {
   background-color: #82d8ff;
 }
-/* line 385, ../sass/screen.scss */
+/* line 384, ../sass/screen.scss */
 #section_one .notes .note .anno_note {
   position: absolute;
   left: -373px;
@@ -457,7 +456,7 @@ blockquote {
   z-index: -1;
   color: #fff;
 }
-/* line 394, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 #section_one .notes .note .anno_note.active {
   color: #222;
   border-right: solid 1px #666666;
@@ -465,11 +464,11 @@ blockquote {
   z-index: 9;
 }
 
-/* line 407, ../sass/screen.scss */
+/* line 406, ../sass/screen.scss */
 #section_two .main_column .explainer {
   text-align: left;
 }
-/* line 409, ../sass/screen.scss */
+/* line 408, ../sass/screen.scss */
 #section_two .main_column .explainer #all_link {
   float: right;
   line-height: 40px;
@@ -477,91 +476,91 @@ blockquote {
   font-style: normal;
   cursor: pointer;
 }
-/* line 415, ../sass/screen.scss */
+/* line 414, ../sass/screen.scss */
 #section_two .main_column .explainer #all_link:hover {
   text-decoration: underline;
 }
-/* line 420, ../sass/screen.scss */
+/* line 419, ../sass/screen.scss */
 #section_two .main_column .annotate {
   background-color: #FDFEC4;
   padding: 2px 0;
   cursor: pointer;
 }
-/* line 424, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 #section_two .main_column .annotate:hover {
   background-color: yellow;
 }
-/* line 428, ../sass/screen.scss */
+/* line 427, ../sass/screen.scss */
 #section_two .main_column .annotation_container {
   display: none;
 }
-/* line 432, ../sass/screen.scss */
+/* line 431, ../sass/screen.scss */
 #section_two .main_column .annotation_container .annotation {
   background: #c9ebfb;
   padding: 4px 0 2px;
   font-size: 16px;
 }
-/* line 436, ../sass/screen.scss */
+/* line 435, ../sass/screen.scss */
 #section_two .main_column .annotation_container .annotation .anno {
   background: #98d5f2;
   padding: 4px 0 2px;
   cursor: pointer;
 }
-/* line 440, ../sass/screen.scss */
+/* line 439, ../sass/screen.scss */
 #section_two .main_column .annotation_container .annotation .anno:hover {
   background: #52b4e1;
 }
-/* line 444, ../sass/screen.scss */
+/* line 443, ../sass/screen.scss */
 #section_two .main_column .annotation_container .annotation .anno_note {
   background: #ffbfbf;
   padding: 4px 0 2px;
   display: none;
 }
-/* line 448, ../sass/screen.scss */
+/* line 447, ../sass/screen.scss */
 #section_two .main_column .annotation_container .annotation .anno_note .spacer, #section_two .main_column .annotation_container .annotation .anno_note .end_spacer {
   background: #fff;
   padding: 4px 0 2px;
 }
-/* line 452, ../sass/screen.scss */
+/* line 451, ../sass/screen.scss */
 #section_two .main_column .annotation_container .annotation .anno_note .end_spacer {
   margin-right: -4px;
 }
-/* line 455, ../sass/screen.scss */
+/* line 454, ../sass/screen.scss */
 #section_two .main_column .annotation_container .annotation .anno_note.active {
   display: inline;
 }
-/* line 460, ../sass/screen.scss */
+/* line 459, ../sass/screen.scss */
 #section_two .main_column .annotation_container.active {
   display: inline;
 }
-/* line 465, ../sass/screen.scss */
+/* line 464, ../sass/screen.scss */
 #section_two .notes {
   display: none;
 }
 
-/* line 469, ../sass/screen.scss */
+/* line 468, ../sass/screen.scss */
 #section_three {
   padding: 0;
 }
-/* line 471, ../sass/screen.scss */
+/* line 470, ../sass/screen.scss */
 #section_three #lineCanvas {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 7;
 }
-/* line 477, ../sass/screen.scss */
+/* line 476, ../sass/screen.scss */
 #section_three .main_column {
   padding: 60px 0;
   z-index: 8;
   position: relative;
 }
-/* line 482, ../sass/screen.scss */
+/* line 481, ../sass/screen.scss */
 #section_three .main_column .annotate .content {
   background: rgba(255, 255, 0, 0.5);
   padding: 2px 0;
 }
-/* line 486, ../sass/screen.scss */
+/* line 485, ../sass/screen.scss */
 #section_three .main_column .annotate .dot {
   display: inline-block;
   width: 8px;
@@ -572,7 +571,7 @@ blockquote {
   margin: 0 4px;
   top: -2px;
 }
-/* line 499, ../sass/screen.scss */
+/* line 498, ../sass/screen.scss */
 #section_three .notes .note {
   position: absolute;
   width: 350px;
@@ -586,15 +585,15 @@ blockquote {
   z-index: 8;
   border: solid 4px black;
 }
-/* line 511, ../sass/screen.scss */
+/* line 510, ../sass/screen.scss */
 #section_three .notes .note a {
   color: #111;
 }
-/* line 516, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 #section_three .notes .note .anno {
   background: #9fdefb;
 }
-/* line 518, ../sass/screen.scss */
+/* line 517, ../sass/screen.scss */
 #section_three .notes .note .anno .dot {
   position: absolute;
   right: -7px;
@@ -603,7 +602,7 @@ blockquote {
   height: 10px;
   border-radius: 10px;
 }
-/* line 527, ../sass/screen.scss */
+/* line 526, ../sass/screen.scss */
 #section_three .notes .note .note_dot {
   background: #000;
   width: 10px;
@@ -614,7 +613,7 @@ blockquote {
   left: 50%;
   margin-left: -5px;
 }
-/* line 538, ../sass/screen.scss */
+/* line 537, ../sass/screen.scss */
 #section_three .notes .anno_note {
   position: absolute;
   width: 350px;
@@ -627,7 +626,7 @@ blockquote {
   z-index: 8;
   border: solid 4px black;
 }
-/* line 549, ../sass/screen.scss */
+/* line 548, ../sass/screen.scss */
 #section_three .notes .anno_note .note_dot {
   background: #000;
   width: 10px;
@@ -639,46 +638,46 @@ blockquote {
   left: -7px;
 }
 
-/* line 563, ../sass/screen.scss */
+/* line 562, ../sass/screen.scss */
 #section_four .main_column {
   position: relative;
   text-align: justify;
   break-word: hyphenate;
   word-wrap: break-word;
 }
-/* line 568, ../sass/screen.scss */
+/* line 567, ../sass/screen.scss */
 #section_four .main_column .inner_container {
   position: relative;
 }
-/* line 571, ../sass/screen.scss */
+/* line 570, ../sass/screen.scss */
 #section_four .main_column p {
   display: inline;
 }
-/* line 574, ../sass/screen.scss */
+/* line 573, ../sass/screen.scss */
 #section_four .main_column hr {
   border: none;
   height: 0.18em;
 }
-/* line 578, ../sass/screen.scss */
+/* line 577, ../sass/screen.scss */
 #section_four .main_column .annotate {
   background-color: rgba(255, 255, 0, 0.25);
   padding: 2px 0;
 }
-/* line 581, ../sass/screen.scss */
+/* line 580, ../sass/screen.scss */
 #section_four .main_column .annotate.active {
   background-color: rgba(255, 255, 0, 0.5);
 }
-/* line 585, ../sass/screen.scss */
+/* line 584, ../sass/screen.scss */
 #section_four .main_column .note_spacer {
   float: right;
   clear: right;
 }
-/* line 589, ../sass/screen.scss */
+/* line 588, ../sass/screen.scss */
 #section_four .main_column .note_spacer.clear_left {
   clear: left;
   float: left;
 }
-/* line 593, ../sass/screen.scss */
+/* line 592, ../sass/screen.scss */
 #section_four .main_column .note {
   clear: right;
   max-width: 300px;
@@ -693,11 +692,11 @@ blockquote {
   padding: 10px 0 10px 30px;
   margin: 0 -100px 0 0;
 }
-/* line 606, ../sass/screen.scss */
+/* line 605, ../sass/screen.scss */
 #section_four .main_column .note p {
   display: inline;
 }
-/* line 609, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
 #section_four .main_column .note .decorator {
   font-family: "Monaco";
   display: inline-block;
@@ -707,22 +706,22 @@ blockquote {
   font-size: 17px;
   color: #333;
 }
-/* line 618, ../sass/screen.scss */
+/* line 617, ../sass/screen.scss */
 #section_four .main_column .note hr:last-child {
   height: 0;
 }
-/* line 621, ../sass/screen.scss */
+/* line 620, ../sass/screen.scss */
 #section_four .main_column .note.active p {
   background: #FDFEC4;
   padding: 2px 0;
 }
-/* line 625, ../sass/screen.scss */
+/* line 624, ../sass/screen.scss */
 #section_four .main_column .note .anno_note_spacer {
   width: 0;
   float: right;
   clear: right;
 }
-/* line 630, ../sass/screen.scss */
+/* line 629, ../sass/screen.scss */
 #section_four .main_column .note .anno_note {
   width: 250px;
   float: right;
@@ -733,54 +732,54 @@ blockquote {
   left: 0;
   top: 0;
 }
-/* line 639, ../sass/screen.scss */
+/* line 638, ../sass/screen.scss */
 #section_four .main_column .note .anno_note p {
   background: transparent;
 }
-/* line 642, ../sass/screen.scss */
+/* line 641, ../sass/screen.scss */
 #section_four .main_column .note .anno_note.positioned {
   position: relative;
   left: auto;
   top: auto;
 }
-/* line 648, ../sass/screen.scss */
+/* line 647, ../sass/screen.scss */
 #section_four .main_column .note .anno_note.active p {
   background: #d5f2ff;
   padding: 2px 0;
 }
-/* line 652, ../sass/screen.scss */
+/* line 651, ../sass/screen.scss */
 #section_four .main_column .note .anno_note.active .anno_anno_note p {
   background: transparent;
 }
-/* line 655, ../sass/screen.scss */
+/* line 654, ../sass/screen.scss */
 #section_four .main_column .note .anno_note.active .anno_anno_note.active p {
   background: #ffdede;
 }
-/* line 660, ../sass/screen.scss */
+/* line 659, ../sass/screen.scss */
 #section_four .main_column .note .anno {
   background: #d5f2ff;
   padding: 2px 0;
 }
-/* line 663, ../sass/screen.scss */
+/* line 662, ../sass/screen.scss */
 #section_four .main_column .note .anno.active {
   background: #9bdfff;
 }
-/* line 667, ../sass/screen.scss */
+/* line 666, ../sass/screen.scss */
 #section_four .main_column .note .anno_anno {
   background: #ffdede;
   padding: 2px 0;
 }
-/* line 670, ../sass/screen.scss */
+/* line 669, ../sass/screen.scss */
 #section_four .main_column .note .anno_anno.active {
   background: #FFBFBF;
 }
-/* line 674, ../sass/screen.scss */
+/* line 673, ../sass/screen.scss */
 #section_four .main_column .note .anno_anno_note_spacer {
   width: 0;
   float: right;
   clear: right;
 }
-/* line 679, ../sass/screen.scss */
+/* line 678, ../sass/screen.scss */
 #section_four .main_column .note .anno_anno_note {
   width: 200px;
   float: right;
@@ -791,52 +790,52 @@ blockquote {
   left: 0;
   top: 0;
 }
-/* line 688, ../sass/screen.scss */
+/* line 687, ../sass/screen.scss */
 #section_four .main_column .note .anno_anno_note p {
   background: transparent;
 }
-/* line 691, ../sass/screen.scss */
+/* line 690, ../sass/screen.scss */
 #section_four .main_column .note .anno_anno_note.positioned {
   position: relative;
   left: auto;
   top: auto;
 }
-/* line 696, ../sass/screen.scss */
+/* line 695, ../sass/screen.scss */
 #section_four .main_column .note .anno_anno_note.active p {
   background: #ffdede;
 }
-/* line 701, ../sass/screen.scss */
+/* line 700, ../sass/screen.scss */
 #section_four .main_column .note.shift_left {
   float: left;
   padding: 10px 30px 10px 0;
   margin: 0 0 0 -100px;
   clear: left;
 }
-/* line 706, ../sass/screen.scss */
+/* line 705, ../sass/screen.scss */
 #section_four .main_column .note.shift_left .anno_note_spacer {
   float: left;
   clear: left;
 }
-/* line 710, ../sass/screen.scss */
+/* line 709, ../sass/screen.scss */
 #section_four .main_column .note.shift_left .anno_note {
   float: left;
   clear: left;
   padding: 10px 20px 10px 0;
   margin: 0 0 0 -100px;
 }
-/* line 715, ../sass/screen.scss */
+/* line 714, ../sass/screen.scss */
 #section_four .main_column .note.shift_left .anno_note.active p {
   background: #d5f2ff;
   padding: 2px 0;
 }
-/* line 721, ../sass/screen.scss */
+/* line 720, ../sass/screen.scss */
 #section_four .main_column .note.positioned {
   position: relative;
   left: auto;
   top: auto;
 }
 
-/* line 728, ../sass/screen.scss */
+/* line 727, ../sass/screen.scss */
 #footer {
   color: #777;
   font-family: "OpenSansLight";
@@ -847,22 +846,22 @@ blockquote {
   background: #222;
   overflow: hidden;
 }
-/* line 737, ../sass/screen.scss */
+/* line 736, ../sass/screen.scss */
 #footer a {
   color: #bbb;
   text-decoration: none;
 }
-/* line 740, ../sass/screen.scss */
+/* line 739, ../sass/screen.scss */
 #footer a:hover {
   text-decoration: underline;
 }
 
-/* line 745, ../sass/screen.scss */
+/* line 744, ../sass/screen.scss */
 #about_container {
   display: none;
 }
 
-/* line 748, ../sass/screen.scss */
+/* line 747, ../sass/screen.scss */
 body.about #about_container {
   height: 100%;
   width: 100%;
@@ -876,7 +875,7 @@ body.about #about_container {
   -webkit-font-smoothing: antialiased;
   display: block;
 }
-/* line 760, ../sass/screen.scss */
+/* line 759, ../sass/screen.scss */
 body.about #about_container #about_back {
   text-transform: uppercase;
   background: #000;
@@ -894,11 +893,11 @@ body.about #about_container #about_back {
   cursor: pointer;
   font-size: 18px;
 }
-/* line 776, ../sass/screen.scss */
+/* line 775, ../sass/screen.scss */
 body.about #about_container #about_back:hover {
   color: #ccc;
 }
-/* line 780, ../sass/screen.scss */
+/* line 779, ../sass/screen.scss */
 body.about #about_container #about {
   width: 640px;
   font-size: 18px;
@@ -907,14 +906,14 @@ body.about #about_container #about {
   padding: 60px 0;
   position: relative;
 }
-/* line 787, ../sass/screen.scss */
+/* line 786, ../sass/screen.scss */
 body.about #about_container #about h1 {
   font-size: 30px;
   margin-bottom: 1em;
   color: #ddd;
   font-family: "OpenSansLight", sans-serif;
 }
-/* line 793, ../sass/screen.scss */
+/* line 792, ../sass/screen.scss */
 body.about #about_container #about h2 {
   font-size: 24px;
   margin-bottom: 1em;
@@ -922,34 +921,34 @@ body.about #about_container #about h2 {
   color: #ddd;
   font-family: "OpenSansLight", sans-serif;
 }
-/* line 802, ../sass/screen.scss */
+/* line 801, ../sass/screen.scss */
 body.about #about_container #about p {
   line-height: 1.7em;
   margin-bottom: 1.3em;
 }
-/* line 806, ../sass/screen.scss */
+/* line 805, ../sass/screen.scss */
 body.about #about_container #about a, body.about #about_container #about #text_close_about {
   color: #ccc;
   text-decoration: none;
   border-bottom: solid 1px #cccccc;
   cursor: pointer;
 }
-/* line 811, ../sass/screen.scss */
+/* line 810, ../sass/screen.scss */
 body.about #about_container #about a:hover, body.about #about_container #about #text_close_about:hover {
   background: #fff;
   color: #000;
   border-bottom: solid 1px white;
 }
-/* line 817, ../sass/screen.scss */
+/* line 816, ../sass/screen.scss */
 body.about #about_container #about .annotate {
   border-bottom: solid 1px yellow;
 }
-/* line 819, ../sass/screen.scss */
+/* line 818, ../sass/screen.scss */
 body.about #about_container #about .annotate.hover, body.about #about_container #about .annotate.active {
   background: yellow;
   color: #222;
 }
-/* line 826, ../sass/screen.scss */
+/* line 825, ../sass/screen.scss */
 body.about #about_container .notes .note {
   background: #111;
   color: #ccc;
@@ -960,32 +959,32 @@ body.about #about_container .notes .note {
   display: none;
   border-top: solid 1px yellow;
 }
-/* line 835, ../sass/screen.scss */
+/* line 834, ../sass/screen.scss */
 body.about #about_container .notes .note.hover, body.about #about_container .notes .note.active {
   display: block;
 }
-/* line 838, ../sass/screen.scss */
+/* line 837, ../sass/screen.scss */
 body.about #about_container .notes .note a {
   color: #ccc;
   text-decoration: none;
   border-bottom: solid 1px #cccccc;
 }
-/* line 842, ../sass/screen.scss */
+/* line 841, ../sass/screen.scss */
 body.about #about_container .notes .note a:hover {
   background: #fff;
   color: #000;
   border-bottom: solid 1px white;
 }
-/* line 848, ../sass/screen.scss */
+/* line 847, ../sass/screen.scss */
 body.about #about_container .notes .note .anno {
   border-bottom: solid 1px cyan;
 }
-/* line 850, ../sass/screen.scss */
+/* line 849, ../sass/screen.scss */
 body.about #about_container .notes .note .anno.hover, body.about #about_container .notes .note .anno.active {
   background: cyan;
   color: #000;
 }
-/* line 856, ../sass/screen.scss */
+/* line 855, ../sass/screen.scss */
 body.about #about_container .notes .anno_note {
   width: 310px;
   color: #ccc;
@@ -997,7 +996,7 @@ body.about #about_container .notes .anno_note {
   left: 20px;
   border-top: solid 1px cyan;
 }
-/* line 866, ../sass/screen.scss */
+/* line 865, ../sass/screen.scss */
 body.about #about_container .notes .anno_note.hover, body.about #about_container .notes .anno_note.active {
   display: block;
 }

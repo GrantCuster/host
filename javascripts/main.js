@@ -654,28 +654,30 @@ $(document).ready(function() {
 	footerSetup();
 
 	function aboutTriggers() {
-		$('#info_top, #more_info, #info').click( function() {
+		function triggerAbout() {
 			var $about = $('#about_container');
 			$('body').addClass('about');
 			if ( ! $about.hasClass('set_up') ) {
 				aboutSetup();
 				$about.addClass('set_up');
 			}
-			var about_offset = $about.offset().top;
-			var scroll_top = $(window).scrollTop();
-			section_i = getCurrent(scroll_top, sections.sectionTopsArray, sections.section_length);
-			if ( section_i == null ) {
-				var header_top = 0;
-			} else {
-				var $headers = $('#about_container h2');
-				var $header = $headers.eq(section_i);
-				var header_top = $header.position().top;
-			}
-			$about.scrollTop(header_top);
 			return false;
+		}
+		function checkAbout() {
+			var hash = window.location.hash
+			if (hash.indexOf('about') != -1) {
+				triggerAbout()
+			}
+		}
+		checkAbout();
+
+		$('#info_top, #more_info, #info').click( function() {
+			triggerAbout();
+			history.pushState("", document.title, window.location.pathname + '#about');
 		});
 		$('#about_back, #text_close_about').click( function() {
 			$('body').removeClass('about');
+			history.pushState("", document.title, window.location.pathname);
 		});
 	}
 	aboutTriggers();
